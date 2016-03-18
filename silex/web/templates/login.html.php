@@ -18,8 +18,9 @@ $slots = $view['slots'];
         <div class="col-md-2"></div>
         <div class="col-md-8">
             <div class="panel panel-default">
-                <div class="panel-heading">Login</div>
                 <div class="panel-body">
+                    <h3 class="panelHeading">Login</h3>
+                    <hr>
                     <?php if ($msg != NULL) : ?>
                         <div class="alert alert-danger" role="alert">
                             <?= $msg ?>
