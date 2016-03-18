@@ -66,9 +66,11 @@ $app['templating'] = function() use ($app) {
 $app->register(new DoctrineServiceProvider(), array(
     'db.options' => array(
         'dbname' => 'silex',
-        'user' => 'silex',
-        'password' => 'silex'
+        'user' => 'root',
+        'password' => ''
     ),
 ));
+
+$app->register(new Silex\Provider\SessionServiceProvider());
 
 return $app;

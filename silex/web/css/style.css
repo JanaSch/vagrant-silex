@@ -1,0 +1,194 @@
+body {
+    background-color: #f6f5f5;
+    height: 100%;
+}
+
+nav {
+    position: relative !important;
+}
+
+nav.navbar-findcond {
+    background: #fff;
+    border-color: #ccc;
+    box-shadow: 0 0 2px 0 #ccc;
+}
+
+nav.navbar-findcond a {
+    color: #9c21a6;
+}
+
+nav.navbar-findcond ul.navbar-nav a {
+    color: #9c21a6;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #fff;
+}
+
+nav.navbar-findcond ul.navbar-nav a:hover,
+nav.navbar-findcond ul.navbar-nav a:visited,
+nav.navbar-findcond ul.navbar-nav a:focus,
+nav.navbar-findcond ul.navbar-nav a:active {
+    background: #fff;
+}
+
+nav.navbar-findcond ul.navbar-nav a:hover {
+    border-color: #9c21a6;
+}
+
+nav.navbar-findcond li.divider {
+    background: #ccc;
+}
+
+nav.navbar-findcond button.navbar-toggle {
+    background: #9c21a6;
+    border-radius: 2px;
+}
+
+nav.navbar-findcond button.navbar-toggle:hover {
+    background: #999;
+}
+
+nav.navbar-findcond button.navbar-toggle > span.icon-bar {
+    background: #fff;
+}
+
+nav.navbar-findcond ul.dropdown-menu {
+    border: 0;
+    background: #fff;
+    border-radius: 4px;
+    margin: 4px 0;
+    box-shadow: 0 0 4px 0 #ccc;
+}
+
+nav.navbar-findcond ul.dropdown-menu > li > a {
+    color: #444;
+}
+
+nav.navbar-findcond ul.dropdown-menu > li > a:hover {
+    background: #9c21a6;
+    color: #fff;
+}
+
+.active a {
+    border-color: #9c21a6 !important;
+}
+
+.intro-header {
+    position: absolute;
+    width: 100vw;
+    padding-top: 50px;
+    color: whitesmoke;
+    background: no-repeat fixed;
+    background-size: cover;
+    height: 250px;
+    background-image: url('/pic/prototyp');
+}
+
+.content {
+    margin-top: 240px;
+}
+
+.extraContent {
+    margin-top: 70px;
+}
+
+.panel > .comment:after, .panel > .panel-heading:before {
+    position: absolute;
+    top: 11px;
+    left: -5px;
+    right: 100%;
+    width: 0;
+    height: 0;
+    display: block;
+    content: "";
+    border-color: transparent;
+    border-style: solid solid outset;
+}
+
+.panel > .comment:after {
+    border-width: 10px;
+    border-right-color: #f7f7f7;
+    margin-top: 1px;
+    margin-left: 2px;
+}
+
+.panel > .comment:before {
+    border-right-color: #ddd;
+    border-width: 11px;
+}
+
+.panel > .comment {
+    background: #f7f7f7;
+}
+
+.panel-speechbubble {
+    background: #ddd;
+
+}
+
+#loginDropdown {
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow: hidden;
+}
+
+#loginDropdown .form-group {
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #494949;
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #9c21a6;
+    color: #ffffff;
+}
+
+.panel-default > .panel-heading {
+    background-color: #494949;
+    color: #ffffff;
+}
+
+.attributes {
+    color: #9c21a6;
+    border-style: ridge;
+    border-width: 0 0 1px 0;
+    border-color: #e0e0e0;
+}
+
+a.attributes:hover {
+    color: #9c21a6;
+    border-width: 0 0 1px 0;
+    border-color: #9c21a6;
+    text-decoration: none;
+}
+
+.placeholder {
+    margin: 0 1em;
+    color: #ccc;
+}
+
+.blogPostHeader {
+    color: #666;
+}
+
+.heading1 {
+    font-size: large;
+    border-style: ridge;
+    border-width: 0 0 1px 0;
+    border-color: #9c21a6;
+}
+
+.linkColor {
+    color: #000000;
+}
+
+.hrDark {
+    border-color: #adadad;
+}
+
+.panelHeading {
+    color: #58dda2;
+}
